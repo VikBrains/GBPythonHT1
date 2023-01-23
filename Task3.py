@@ -1,0 +1,5 @@
+anynum = int(input("запишите произвольное число:  "))
+numd = int(f"{anynum}{anynum}")
+numh = int(f"{anynum}{anynum}{anynum}")
+rest = (anynum + numd + numh)
+print(rest)

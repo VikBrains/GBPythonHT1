@@ -1,5 +1,7 @@
-anynum = int(input("запишите произвольное число:  "))
-numd = int(f"{anynum}{anynum}")
-numh = int(f"{anynum}{anynum}{anynum}")
-rest = (anynum + numd + numh)
-print(rest)
+"""Узнайте у пользователя число n. Найдите сумму чисел n + nn + nnn.
+Например, пользователь ввёл число 3. Считаем 3 + 33 + 333 = 369."""
+n = int(input("запишите произвольное число:  "))
+n_d = int(f"{n}{n}")
+n_h = int(f"{n}{n}{n}")
+rest = (n + n_d + n_h)
+print(f"{n} + {n_d} + {n_h} = {rest}")
